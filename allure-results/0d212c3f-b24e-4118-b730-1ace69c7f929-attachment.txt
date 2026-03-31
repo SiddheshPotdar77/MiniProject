@@ -1,0 +1,2 @@
+[2026-03-27T04:13:01.226Z] [ERROR] Failed to click element: locator {}
+[2026-03-27T04:13:01.228Z] [ERROR] Login failed {}
