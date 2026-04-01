@@ -1,0 +1,10 @@
+[2026-04-01T03:18:00.327Z] [INFO] Navigated to: /web/index.php/auth/login
+[2026-04-01T03:18:01.553Z] [DEBUG] Element visible: locator
+[2026-04-01T03:18:01.553Z] [INFO] STEP: Navigate to login page
+[2026-04-01T03:18:01.623Z] [DEBUG] Element visible: locator
+[2026-04-01T03:18:01.624Z] [INFO] STEP: Login page verified as loaded
+[2026-04-01T03:18:01.624Z] [INFO] STEP: Login page verified
+[2026-04-01T03:18:01.781Z] [INFO] STEP: Credentials entered
+[2026-04-01T03:18:01.934Z] [DEBUG] Login form cleared
+[2026-04-01T03:18:01.934Z] [INFO] STEP: Form cleared
+[2026-04-01T03:18:01.995Z] [INFO] STEP: Form verified as cleared

@@ -17,23 +17,24 @@ test.describe("Login Functionality",()=>
 
     test("@smoke @Regression Login sucessful with valid credentials",async({page})=>
     {
-        test.step("Navigate to login page",async()=>
+        await test.step("Navigate to login page",async()=>
         {
             await loginPage.verifyPageLoaded();
             logger.step("Login page loadede sucessfully");
         })
 
-        test.step("Enter valid credentials",async()=>
+        await test.step("Enter valid credentials",async()=>
         {
             await loginPage.login("Admin",'admin123');
             logger.step("credentials entered");
         })
 
-        /*test.step("Verify dashboard is displayed",async()=>
+        await test.step("Verify dashboard is displayed",async()=>
         {
+            //await dashboardPage.goto();
             await dashboardPage.verifyPageLoaded();
             logger.step('Dashboard displayed successfully');
-        })*/
+        })
     })
 
     test('@regression Should display error message for both invalid credentials', async ({ page }) => 

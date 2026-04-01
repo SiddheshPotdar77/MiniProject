@@ -1,0 +1,4 @@
+[2026-04-01T03:14:39.029Z] [INFO] Navigated to: /web/index.php/auth/login
+[2026-04-01T03:14:40.478Z] [DEBUG] Element visible: locator
+[2026-04-01T03:14:40.478Z] [INFO] STEP: Navigate to login page
+[2026-04-01T03:14:43.163Z] [INFO] Navigated to: /web/index.php/dashboard/index

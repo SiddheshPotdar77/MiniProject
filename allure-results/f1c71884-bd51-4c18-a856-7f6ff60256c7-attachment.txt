@@ -1,0 +1,4 @@
+[2026-04-01T03:14:43.277Z] [ERROR] Element not visible: locator {}
+[2026-04-01T03:14:43.293Z] [ERROR] Failed to type text: locator {}
+[2026-04-01T03:14:43.294Z] [ERROR] Login failed {}
+[2026-04-01T03:14:43.296Z] [ERROR] Element not visible: locator {}
