@@ -1,9 +1,0 @@
-[2026-04-01T03:21:58.813Z] [INFO] Navigated to: /web/index.php/auth/login
-[2026-04-01T03:22:01.323Z] [DEBUG] Element visible: locator
-[2026-04-01T03:22:01.323Z] [INFO] STEP: Navigate to login page
-[2026-04-01T03:22:01.341Z] [INFO] STEP: Remained on login page - login failed as expected
-[2026-04-01T03:22:01.587Z] [DEBUG] Typed text into element: locator
-[2026-04-01T03:22:01.651Z] [DEBUG] Typed text into element: locator
-[2026-04-01T03:22:02.859Z] [DEBUG] Clicked element: locator
-[2026-04-01T03:22:02.859Z] [INFO] STEP: Login completed
-[2026-04-01T03:22:02.859Z] [INFO] STEP: Invalid credentials entered

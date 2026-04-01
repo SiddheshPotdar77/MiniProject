@@ -1,9 +1,0 @@
-[2026-03-27T03:39:37.808Z] [INFO] Navigated to: /web/index.php/auth/login
-[2026-03-27T03:39:39.281Z] [DEBUG] Element visible: locator
-[2026-03-27T03:39:39.281Z] [INFO] STEP: Navigate to login page
-[2026-03-27T03:39:39.424Z] [DEBUG] Element visible: locator
-[2026-03-27T03:39:39.424Z] [INFO] STEP: Login page verified as loaded
-[2026-03-27T03:39:39.424Z] [INFO] STEP: Login page loadede sucessfully
-[2026-03-27T03:39:39.600Z] [DEBUG] Typed text into element: locator
-[2026-03-27T03:39:39.723Z] [DEBUG] Typed text into element: locator
-[2026-03-27T03:39:41.705Z] [DEBUG] Clicked element: locator

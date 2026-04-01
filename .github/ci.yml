@@ -1,0 +1,103 @@
+name: Playwright Tests CI (Windows)
+
+on:
+  push:
+    branches:
+      - siddheshbranch   # Smoke tests only on feature branch
+  pull_request:
+    branches:
+      - main             # Regression runs on PRs into main
+  workflow_dispatch:      # Manual trigger
+  schedule:
+    - cron: '0 0 * * *'  # Nightly regression at midnight
+
+jobs:
+  smoke-tests:
+    timeout-minutes: 20
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Install Playwright browsers
+      run: npx playwright install --with-deps chromium
+
+    - name: Run smoke tests (HTML report)
+      run: npx playwright test --reporter=html
+      env:
+        CI: true
+        HEADLESS: true
+        ACTION_TIMEOUT: 60000
+        NAVIGATION_TIMEOUT: 60000
+        PLAYWRIGHT_TEST_TIMEOUT: 120000
+
+    - name: Upload smoke test HTML report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: smoke-test-html-report
+        path: playwright-report/
+        retention-days: 7
+
+  regression-tests:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'pull_request'
+    timeout-minutes: 60
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        browser: [chromium]
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Install Playwright browsers
+      run: npx playwright install --with-deps ${{ matrix.browser }}
+
+    - name: Run regression tests with Allure
+      run: npx playwright test --project=${{ matrix.browser }} --reporter=line,allure-playwright
+      env:
+        CI: true
+        HEADLESS: true
+        ACTION_TIMEOUT: 60000
+        NAVIGATION_TIMEOUT: 60000
+        PLAYWRIGHT_TEST_TIMEOUT: 120000
+
+    - name: Generate Allure report
+      run: |
+        npx allure generate ./allure-results --clean -o ./allure-report
+
+    - name: Upload Allure report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: allure-report-${{ matrix.browser }}
+        path: allure-report/
+        retention-days: 30
+
+    - name: Upload test traces
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: regression-traces-${{ matrix.browser }}
+        path: test-results/
+        retention-days: 30
