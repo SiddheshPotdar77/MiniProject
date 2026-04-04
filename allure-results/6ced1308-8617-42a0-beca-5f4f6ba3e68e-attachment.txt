@@ -1,0 +1,20 @@
+[2026-04-04T04:54:54.564Z] [INFO] Navigated to: /web/index.php/auth/login
+[2026-04-04T04:54:55.106Z] [DEBUG] Element visible: locator
+[2026-04-04T04:54:55.107Z] [INFO] STEP: Navigate to login page
+[2026-04-04T04:54:55.297Z] [DEBUG] Typed text into element: locator
+[2026-04-04T04:54:55.391Z] [DEBUG] Typed text into element: locator
+[2026-04-04T04:54:56.617Z] [DEBUG] Clicked element: locator
+[2026-04-04T04:54:56.617Z] [INFO] STEP: Login completed
+[2026-04-04T04:54:57.251Z] [DEBUG] Element visible: locator
+[2026-04-04T04:54:57.252Z] [INFO] STEP: Dashboard page verified as loaded
+[2026-04-04T04:54:57.266Z] [INFO] STEP: User verified as logged in
+[2026-04-04T04:54:57.271Z] [INFO] STEP: Performing logout
+[2026-04-04T04:54:57.629Z] [DEBUG] Clicked element: locator
+[2026-04-04T04:54:57.667Z] [DEBUG] Element visible: locator
+[2026-04-04T04:54:59.184Z] [DEBUG] Clicked element: locator
+[2026-04-04T04:54:59.189Z] [INFO] STEP: Logout completed
+[2026-04-04T04:54:59.189Z] [INFO] STEP: Logout performed
+[2026-04-04T04:54:59.396Z] [DEBUG] Element visible: locator
+[2026-04-04T04:54:59.397Z] [INFO] STEP: Login page verified as loaded
+[2026-04-04T04:54:59.402Z] [INFO] STEP: Redirected to login page
+[2026-04-04T04:54:59.475Z] [INFO] STEP: Login form verified as visible

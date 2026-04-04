@@ -15,30 +15,29 @@ test.describe("Dashboard Functionality",()=>
         //Login before test
         await loginPage.goto();
         await loginPage.login('Admin',"admin123")
-
     })
 
-    test('@smoke @regression Should display all main widgets', async ({ page }) => 
+    test('@smoke @regression Should display all main widgets',async({page}) => 
     {
-        await test.step('Navigate to dashboard', async () => {
+        await test.step('Navigate to dashboard',async() => {
         await dashboardPage.goto();
         await dashboardPage.verifyPageLoaded();
         logger.step('Navigated to dashboard');
     });
 
-    await test.step('Verify Time at Work widget', async () => 
+    await test.step('Verify Time at Work widget',async() => 
     {
       await dashboardPage.verifyTimeAtWorkWidget();
       logger.step('Time at Work widget verified');
     });
 
-    await test.step('Verify My Actions widget', async () => 
+    await test.step('Verify My Actions widget',async() => 
     {
       await dashboardPage.verifyMyActionsWidget();
       logger.step('My Actions widget verified');
     });
 
-    await test.step('Verify Quick Launch widget', async () => 
+    await test.step('Verify Quick Launch widget',async() => 
     {
       await dashboardPage.verifyQuickLaunchWidget();
       logger.step('Quick Launch widget verified');

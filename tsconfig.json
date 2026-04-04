@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ESNext",                  // Latest JavaScript features
-    "module": "CommonJS",                // Node.js module system
-    "moduleResolution": "node",          // Resolve modules like Node.js
-    "strict": true,                      // Enable strict type checking
-    "esModuleInterop": true,             // Allow default imports from CommonJS
-    "skipLibCheck": true,                // Skip type checking of declaration files
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,           // Allow importing JSON files
-    "outDir": "dist",                    // Compiled output folder
-    "rootDir": ".",                      // Root directory for source files
-    "types": ["node", "@playwright/test"] // Include Playwright + Node types
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "types": ["node", "@playwright/test"],
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "tests",

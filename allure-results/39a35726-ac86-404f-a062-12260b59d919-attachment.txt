@@ -1,0 +1,22 @@
+[2026-04-04T04:51:35.566Z] [INFO] Navigated to: /web/index.php/auth/login
+[2026-04-04T04:51:36.266Z] [DEBUG] Element visible: locator
+[2026-04-04T04:51:36.267Z] [INFO] STEP: Navigate to login page
+[2026-04-04T04:51:37.186Z] [DEBUG] Typed text into element: locator
+[2026-04-04T04:51:37.716Z] [DEBUG] Typed text into element: locator
+[2026-04-04T04:51:39.271Z] [DEBUG] Clicked element: locator
+[2026-04-04T04:51:39.272Z] [INFO] STEP: Login completed
+[2026-04-04T04:51:40.601Z] [INFO] Navigated to: /web/index.php/dashboard/index
+[2026-04-04T04:51:41.031Z] [DEBUG] Element visible: locator
+[2026-04-04T04:51:41.036Z] [INFO] STEP: Navigated to dashboard
+[2026-04-04T04:51:41.157Z] [DEBUG] Element visible: locator
+[2026-04-04T04:51:41.158Z] [INFO] STEP: Dashboard page verified as loaded
+[2026-04-04T04:51:41.158Z] [INFO] STEP: Navigated to dashboard
+[2026-04-04T04:51:41.277Z] [DEBUG] Element visible: locator
+[2026-04-04T04:51:41.277Z] [INFO] STEP: Time at Work widget verified
+[2026-04-04T04:51:41.278Z] [INFO] STEP: Time at Work widget verified
+[2026-04-04T04:51:41.336Z] [DEBUG] Element visible: locator
+[2026-04-04T04:51:41.337Z] [INFO] STEP: My Actions widget verified
+[2026-04-04T04:51:41.337Z] [INFO] STEP: My Actions widget verified
+[2026-04-04T04:51:42.398Z] [DEBUG] Element visible: locator
+[2026-04-04T04:51:42.400Z] [INFO] STEP: Quick Launch widget verified
+[2026-04-04T04:51:42.401Z] [INFO] STEP: Quick Launch widget verified

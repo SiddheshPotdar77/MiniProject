@@ -107,5 +107,4 @@ test.describe("Login Functionality",()=>
       logger.step('Form verified as cleared');
     });
   });
-    
 })

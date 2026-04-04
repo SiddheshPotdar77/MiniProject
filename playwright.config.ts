@@ -5,6 +5,7 @@ export default defineConfig({
   timeout: 60 * 1000,                 // Global timeout per test
   retries: 0,                         // Retry failed tests
   fullyParallel: false,                // Run tests in parallel
+  workers:1,
   reporter: [
     ['list'],                         // Console output
     ['html', { outputFolder: 'reports/html' }], // HTML report

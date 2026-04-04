@@ -1,0 +1,17 @@
+[2026-04-04T04:51:59.385Z] [INFO] Navigated to: /web/index.php/auth/login
+[2026-04-04T04:52:00.020Z] [DEBUG] Element visible: locator
+[2026-04-04T04:52:00.021Z] [INFO] STEP: Navigate to login page
+[2026-04-04T04:52:00.269Z] [DEBUG] Typed text into element: locator
+[2026-04-04T04:52:00.453Z] [DEBUG] Typed text into element: locator
+[2026-04-04T04:52:09.139Z] [DEBUG] Clicked element: locator
+[2026-04-04T04:52:09.139Z] [INFO] STEP: Login completed
+[2026-04-04T04:52:10.270Z] [DEBUG] Element visible: locator
+[2026-04-04T04:52:10.270Z] [INFO] STEP: Dashboard page verified as loaded
+[2026-04-04T04:52:10.272Z] [INFO] STEP: Performing logout
+[2026-04-04T04:52:10.596Z] [DEBUG] Clicked element: locator
+[2026-04-04T04:52:10.679Z] [DEBUG] Element visible: locator
+[2026-04-04T04:52:14.305Z] [DEBUG] Clicked element: locator
+[2026-04-04T04:52:14.307Z] [INFO] STEP: Logout completed
+[2026-04-04T04:52:14.308Z] [INFO] STEP: Logout performed
+[2026-04-04T04:52:15.993Z] [INFO] STEP: Attempted to access dashboard
+[2026-04-04T04:52:15.998Z] [INFO] STEP: Redirected to login page - access denied

@@ -1,0 +1,1 @@
+[2026-04-04T04:19:20.215Z] [INFO] Navigated to: /web/index.php/auth/login

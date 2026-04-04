@@ -69,4 +69,6 @@ test.describe('Logout Functionality', () => {
       logger.step('Redirected to login page - access denied');
     });
   });
+
+  
 })

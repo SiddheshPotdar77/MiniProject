@@ -1,0 +1,6 @@
+[2026-04-04T04:50:45.255Z] [INFO] Navigated to: /web/index.php/auth/login
+[2026-04-04T04:50:45.889Z] [DEBUG] Element visible: locator
+[2026-04-04T04:50:45.890Z] [INFO] STEP: Navigate to login page
+[2026-04-04T04:50:45.947Z] [INFO] STEP: Remained on login page - login failed as expected
+[2026-04-04T04:50:46.481Z] [DEBUG] Typed text into element: locator
+[2026-04-04T04:50:46.777Z] [DEBUG] Typed text into element: locator

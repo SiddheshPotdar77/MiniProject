@@ -1,0 +1,12 @@
+[2026-04-03T03:29:13.301Z] [INFO] Navigated to: /web/index.php/auth/login
+[2026-04-03T03:29:14.221Z] [DEBUG] Element visible: locator
+[2026-04-03T03:29:14.222Z] [INFO] STEP: Navigate to login page
+[2026-04-03T03:29:14.360Z] [DEBUG] Typed text into element: locator
+[2026-04-03T03:29:14.731Z] [DEBUG] Typed text into element: locator
+[2026-04-03T03:29:16.282Z] [DEBUG] Clicked element: locator
+[2026-04-03T03:29:16.282Z] [INFO] STEP: Login completed
+[2026-04-03T03:29:17.384Z] [DEBUG] Element visible: locator
+[2026-04-03T03:29:17.385Z] [INFO] STEP: Dashboard page verified as loaded
+[2026-04-03T03:29:17.489Z] [DEBUG] Element visible: locator
+[2026-04-03T03:29:17.490Z] [INFO] STEP: Dashboard page verified as loaded
+[2026-04-03T03:29:17.490Z] [INFO] STEP: Dashboard displayed successfully
