@@ -1,0 +1,7 @@
+[2026-04-07T05:07:37.673Z] [INFO] API POST: https://restful-booker.herokuapp.com/auth
+[2026-04-07T05:07:38.825Z] [INFO] API Response Status: 200
+[2026-04-07T05:07:38.826Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-07T05:07:39.097Z] [INFO] API Response Status: 200
+[2026-04-07T05:07:39.098Z] [INFO] API DELETE: https://restful-booker.herokuapp.com/booking/3264
+[2026-04-07T05:07:39.369Z] [INFO] API Response Status: 403
+[2026-04-07T05:07:39.372Z] [INFO] STEP: Forbidden delete scenario validated

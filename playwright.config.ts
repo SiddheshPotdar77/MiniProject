@@ -12,7 +12,7 @@ export default defineConfig({
     ['allure-playwright']             // Allure report
   ],
   use: {
-    baseURL: 'https://opensource-demo.orangehrmlive.com/', // OrangeHRM demo site
+    baseURL:'https://opensource-demo.orangehrmlive.com/', // OrangeHRM demo site
     headless: true,                   // Run in headless mode
     screenshot: 'only-on-failure',    // Capture screenshots on failure
     video: 'retain-on-failure',       // Record video on failure

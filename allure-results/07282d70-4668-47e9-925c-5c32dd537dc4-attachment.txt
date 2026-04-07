@@ -1,0 +1,2 @@
+[2026-04-05T05:17:12.155Z] [INFO] API GET: https://api.restful-api.dev/collections/undefined/objects/invalid-id
+[2026-04-05T05:17:12.434Z] [INFO] API Response Status: 403

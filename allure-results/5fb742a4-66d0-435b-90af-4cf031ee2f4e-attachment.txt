@@ -1,0 +1,5 @@
+[2026-04-06T05:12:58.659Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-06T05:12:59.012Z] [INFO] API Response Status: 200
+[2026-04-06T05:12:59.017Z] [INFO] API GET: https://restful-booker.herokuapp.com/booking/6902
+[2026-04-06T05:12:59.319Z] [INFO] API Response Status: 200
+[2026-04-06T05:12:59.321Z] [INFO] STEP: Forbidden access scenario validated

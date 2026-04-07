@@ -19,6 +19,7 @@
     "fixtures",
     "utils",
     "hooks",
+    "api-client",
     "playwright.config.ts"
   ],
   "exclude": [
