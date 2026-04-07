@@ -24,9 +24,17 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Build (Optional)') {
             steps {
-                bat 'npm run build'
+                script {
+                    // Check if "build" script exists in package.json
+                    def hasBuild = bat(script: 'npm run | findstr "build"', returnStatus: true) == 0
+                    if (hasBuild) {
+                        bat 'npm run build'
+                    } else {
+                        echo 'No build script found, skipping build stage.'
+                    }
+                }
             }
         }
 
@@ -47,6 +55,15 @@ pipeline {
                 junit 'test-results/results.xml'
                 archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
             }
+        }
+    }
+
+    post {
+        success {
+            echo 'Pipeline completed successfully!'
+        }
+        failure {
+            echo 'Pipeline failed!'
         }
     }
 }
