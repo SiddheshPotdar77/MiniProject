@@ -1,0 +1,7 @@
+[2026-04-07T05:08:49.211Z] [INFO] API POST: https://restful-booker.herokuapp.com/auth
+[2026-04-07T05:08:49.840Z] [INFO] API Response Status: 200
+[2026-04-07T05:08:49.842Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-07T05:08:52.024Z] [INFO] API Response Status: 200
+[2026-04-07T05:08:52.026Z] [INFO] API DELETE: https://restful-booker.herokuapp.com/booking/999999
+[2026-04-07T05:08:52.331Z] [INFO] API Response Status: 405
+[2026-04-07T05:08:52.332Z] [INFO] STEP: Invalid resource ID scenario validated

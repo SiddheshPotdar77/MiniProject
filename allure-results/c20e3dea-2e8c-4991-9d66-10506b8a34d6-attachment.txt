@@ -1,0 +1,5 @@
+[2026-04-06T05:11:51.168Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-06T05:11:51.412Z] [INFO] API Response Status: 200
+[2026-04-06T05:11:51.417Z] [INFO] API GET: https://restful-booker.herokuapp.com/booking/3524
+[2026-04-06T05:11:51.718Z] [INFO] API Response Status: 200
+[2026-04-06T05:11:51.728Z] [INFO] STEP: Response body validated

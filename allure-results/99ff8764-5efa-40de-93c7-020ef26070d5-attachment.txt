@@ -1,0 +1,5 @@
+[2026-04-06T05:11:54.559Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-06T05:11:54.787Z] [INFO] API Response Status: 200
+[2026-04-06T05:11:54.789Z] [INFO] API GET: https://restful-booker.herokuapp.com/booking/abc
+[2026-04-06T05:11:55.096Z] [INFO] API Response Status: 404
+[2026-04-06T05:11:55.098Z] [INFO] STEP: Malformed booking ID scenario validated

@@ -1,0 +1,4 @@
+[2026-04-07T04:38:41.196Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-07T04:38:42.541Z] [INFO] API Response Status: 200
+[2026-04-07T04:38:42.543Z] [INFO] API PUT: https://restful-booker.herokuapp.com/booking/3920
+[2026-04-07T04:38:42.818Z] [INFO] API Response Status: 403

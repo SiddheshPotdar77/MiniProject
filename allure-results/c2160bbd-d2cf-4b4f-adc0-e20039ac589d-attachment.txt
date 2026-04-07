@@ -1,0 +1,5 @@
+[2026-04-06T05:11:55.159Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-06T05:11:55.375Z] [INFO] API Response Status: 200
+[2026-04-06T05:11:55.379Z] [INFO] API GET: https://restful-booker.herokuapp.com/booking
+[2026-04-06T05:11:56.233Z] [INFO] API Response Status: 200
+[2026-04-06T05:11:56.234Z] [INFO] STEP: Unauthorized access scenario validated

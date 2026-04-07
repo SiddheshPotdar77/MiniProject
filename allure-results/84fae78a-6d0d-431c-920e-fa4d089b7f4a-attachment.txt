@@ -1,0 +1,8 @@
+[2026-04-07T05:08:41.589Z] [INFO] API POST: https://restful-booker.herokuapp.com/auth
+[2026-04-07T05:08:42.853Z] [INFO] API Response Status: 200
+[2026-04-07T05:08:42.855Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-07T05:08:43.131Z] [INFO] API Response Status: 200
+[2026-04-07T05:08:43.134Z] [INFO] API DELETE: https://restful-booker.herokuapp.com/booking/3816
+[2026-04-07T05:08:43.413Z] [INFO] API Response Status: 201
+[2026-04-07T05:08:43.417Z] [INFO] STEP: DELETE returned 201 Created
+[2026-04-07T05:08:44.003Z] [INFO] STEP: Booking successfully deleted and not retrievable

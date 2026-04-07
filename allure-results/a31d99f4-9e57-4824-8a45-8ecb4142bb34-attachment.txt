@@ -1,0 +1,3 @@
+[2026-04-05T05:19:47.337Z] [INFO] API GET: https://api.restful-api.dev/collections/undefined/objects/ff8081819c5368bb019c743ce9bf3294
+[2026-04-05T05:19:47.510Z] [INFO] API Response Status: 403
+[2026-04-05T05:19:47.511Z] [INFO] STEP: Missing API key scenario validated - Status: 403

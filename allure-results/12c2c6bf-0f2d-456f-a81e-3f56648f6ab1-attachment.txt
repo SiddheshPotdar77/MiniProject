@@ -1,0 +1,5 @@
+[2026-04-06T05:12:54.577Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-06T05:12:54.919Z] [INFO] API Response Status: 200
+[2026-04-06T05:12:54.923Z] [INFO] API GET: https://restful-booker.herokuapp.com/booking?firstname=Jim&lastname=Brown
+[2026-04-06T05:12:55.224Z] [INFO] API Response Status: 200
+[2026-04-06T05:12:55.227Z] [INFO] STEP: Filtering validated

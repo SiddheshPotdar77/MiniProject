@@ -1,0 +1,5 @@
+[2026-04-06T05:12:55.266Z] [INFO] API POST: https://restful-booker.herokuapp.com/booking
+[2026-04-06T05:12:55.534Z] [INFO] API Response Status: 200
+[2026-04-06T05:12:55.538Z] [INFO] API GET: https://restful-booker.herokuapp.com/booking?firstname=Jim
+[2026-04-06T05:12:55.835Z] [INFO] API Response Status: 200
+[2026-04-06T05:12:55.839Z] [INFO] STEP: Pagination scenario validated (simulated via filters)
