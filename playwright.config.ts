@@ -1,26 +1,22 @@
 import { defineConfig, devices } from '@playwright/test';
-
 export default defineConfig({
-  testDir: './tests',                 // Folder containing test files
-  timeout: 60 * 1000,                 // Global timeout per test
-  retries: 0,                         // Retry failed tests
-  fullyParallel: false,                // Run tests in parallel
-  workers:1,
+  testDir: './tests',
+  timeout: 60 * 1000,
+  retries: 0,
+  fullyParallel: false,
+  workers: 1,
   reporter: [
-    ['list'],                         // Console output
-    ['html', { outputFolder: 'reports/html' }], // HTML report
-    ['allure-playwright']             // Allure report
+    ['list'],
+    ['html', { outputFolder: 'reports/html' }],
+    ['allure-playwright']
   ],
   use: {
-    baseURL:'https://opensource-demo.orangehrmlive.com/', // OrangeHRM demo site
-    headless: true,                   // Run in headless mode
-    screenshot: 'only-on-failure',    // Capture screenshots on failure
-    video: 'retain-on-failure',       // Record video on failure
-    trace: 'retain-on-failure'        // Collect trace on failure
+    baseURL: process.env.BASE_URL || 'https://opensource-demo.orangehrmlive.com/',
+    headless: true,
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+    trace: 'retain-on-failure'
   },
-  //globalSetup: require.resolve('./fixtures/global.setup'),
-  //globalTeardown: require.resolve('./fixtures/global.teardown'),
-
   projects: [
     {
       name: 'Chromium',

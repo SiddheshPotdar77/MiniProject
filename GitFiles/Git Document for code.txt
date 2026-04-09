@@ -1,0 +1,143 @@
+Step 1: Create a new repository on GitHub
+Log in to GitHub.
+
+Click New Repository.
+
+Give it a name (e.g., MiniProject).
+
+Choose Public or Private.
+
+Don’t add README/license yet (since you already have files locally).
+
+Click Create Repository.
+
+🔹 Step 2: Initialize Git locally
+In your project folder:
+
+bash
+git init
+
+This sets up Git tracking.
+
+🔹 Step 3: Connect local project to GitHub
+Copy the repo URL from GitHub (HTTPS is easiest, looks like https://github.com/username/MiniProject.git).
+
+bash
+git remote add origin https://github.com/username/MiniProject.git
+
+🔹 Step 4: Add and commit your code
+bash
+git add .
+git commit -m "Initial commit"
+
+🔹 Step 5: Push code to main
+bash
+git branch -M main
+git push -u origin main
+Now your code is uploaded.
+
+🔹 Step 6: Create a new branch for changes
+Whenever you want to work separately:
+bash
+git checkout -b feature-branch
+Make changes → commit them:
+
+bash
+git add .
+git commit -m "Added new feature"
+git push -u origin feature-branch
+🔹 Step 7: Merge branch into main
+Two ways:
+
+Option A: Merge locally
+bash
+git checkout main
+git merge feature-branch
+git push origin main
+Option B: Merge via GitHub Pull Request
+Go to your repo on GitHub.
+
+You’ll see a “Compare & pull request” button for your branch.
+
+Click it → review changes → click Merge pull request.
+
+Done — branch merged into main.
+
+🔹 Step 8: Clean up (optional)
+After merging, delete the branch:
+bash
+git branch -d feature-branch
+git push origin --delete feature-branch
+✅ Correct flow summary
+Create repo on GitHub.
+
+Initialize Git locally (git init).
+
+Connect repo (git remote add origin ...).
+
+Commit and push to main.
+
+Create branch (git checkout -b branchname).
+
+Work → commit → push branch.
+
+Merge branch into main (local or PR).
+
+Delete branch if not needed.
+
+
+yesterday i have uploaded code on repo and i have 2 branch SIDDHESH branch & main
+todays i get code & working on that so what step i follow
+
+🔹git code from git 
+
+Check available branches:
+
+bash
+git branch -a
+Switch to your branch:
+
+bash
+git checkout your-branch-name
+🔹 Keeping Your Branch Updated
+To pull the latest changes from remote:
+
+bash
+git pull origin your-branch-name
+That’s it — now you’ll have your code locally and be working on your branch.
+
+When code completed & ones again upload on repo
+Steps to Upload and Merge Code
+Check your branch
+
+bash
+git branch
+Make sure you’re on the branch where you wrote your code.
+
+Add and commit your changes
+
+bash
+git add .
+git commit -m "Your commit message here"
+
+Push your branch to the remote repo
+
+bash
+git push origin your-branch-name
+Switch to main branch
+
+bash
+git checkout main
+Pull the latest changes from remote main
+
+bash
+git pull origin main
+
+Merge your branch into main
+
+bash
+git merge your-branch-name
+Push the updated main back to remote
+
+bash
+git push origin main
